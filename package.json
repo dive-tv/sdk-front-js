@@ -1,0 +1,19 @@
+{
+  "name": "sdk-front-js",
+  "version": "1.0.0",
+  "description": "Frontend default presentation for the sdk-client-js from Touchvie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/touchvie/sdk-front-js.git"
+  },
+  "author": "Tagsonomy S.L.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/touchvie/sdk-front-js/issues"
+  },
+  "homepage": "https://github.com/touchvie/sdk-front-js#readme"
+}
