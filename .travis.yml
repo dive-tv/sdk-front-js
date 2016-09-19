@@ -1,0 +1,28 @@
+sudo: false
+language: node_js
+node_js:
+  - "6"
+  - "6.1"
+  - "5"
+  - "5.11"
+
+install:
+  - npm install
+
+after_success:
+  - npm run jsdoc
+
+# safelist
+#branches:
+#  only:
+#  - master
+#  - develop
+
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: "YOUR_EMAIL_ADDRESS"
+  api_key: "YOUR_API_KEY"
+  on:
+    branch: master
+    tags: true

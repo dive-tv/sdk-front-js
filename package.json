@@ -4,7 +4,8 @@
   "description": "Frontend default presentation for the sdk-client-js from Touchvie",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "browserbabelify": "node scripts/browserify.js",
+    "jsdoc": "jsdoc src/ -r -t node_modules/docdash -d doc/"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/touchvie/sdk-front-js/issues"
   },
-  "homepage": "https://github.com/touchvie/sdk-front-js#readme"
+  "homepage": "https://github.com/touchvie/sdk-front-js#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "docdash": "^0.4.0",
+    "jsdoc": "^3.4.1"
+  },
+  "dependencies": {
+    "sdk-client-js": "file:///Users/daniel.marino/Desktop/TouchvieSDK/sdk-client-js"
+  }
 }
