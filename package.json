@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "browserbabelify": "node scripts/browserify.js",
-    "jsdoc": "jsdoc src/ -r -t node_modules/docdash -d doc/"
+    "jsdoc": "jsdoc src/ -r -t node_modules/docdash -d doc/",
+    "gh-pages-travis": "gh-pages-travis"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "babelify": "^7.3.0",
     "browserify": "^13.1.0",
     "docdash": "^0.4.0",
+    "gh-pages-travis": "^1.0.0",
     "jsdoc": "^3.4.1"
   },
   "dependencies": {
